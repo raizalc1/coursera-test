@@ -6,3 +6,12 @@ h1 {
   text-align: center;
   font-family: arial;
 }
+
+h3 {
+  border: 2px solid black;
+}
+
+.chicken {
+  background-color: #ffcce6;
+  text-align: center;
+}
