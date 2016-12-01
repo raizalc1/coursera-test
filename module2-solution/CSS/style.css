@@ -10,7 +10,7 @@ h1 {
 }
 
 section {
-  width: 30%;
+  width: 420px;
   height: 200px;
   border: 1px solid black;
   margin: 20px;
@@ -28,7 +28,7 @@ h3 {
 #pink {
   position: relative;
   left: 280px;
-  width: 35%;
+  width: 150.5px;
   background-color: pink;
 }
 
@@ -48,4 +48,39 @@ h3 {
 
 p {
   padding: 15px;
+}
+
+/********** Large devices only**********/
+@media (min-width: 992px) {
+  section {
+    width: 30%;
+    height: 40%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #chicken {
+    width: 45%;
+    height: 40%;
+  }
+
+  #beef
+  {
+    width: 45%;
+    height: 40%;
+  }
+
+  #sushi {
+    width: 94%;
+    height: 40%
+  }
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+section {
+  width: 80%;
+  height: 40%;
+}
 }
