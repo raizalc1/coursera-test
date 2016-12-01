@@ -20,34 +20,30 @@ section {
 h3 {
   border-left: 1px solid black;
   border-bottom: 1px solid black;
-  border-right: 1px solid black;
   padding: 5px;
   text-align: center;
 }
 
 #pink {
-  position: relative;
-  left: 280px;
-  width: 150.5px;
+  float: right;
+  width: 150px;
   background-color: pink;
 }
 
 #red {
-  position: relative;
-  left: 280px;
-  width: 35%;
+  float: right;
+  width: 150px;
   background-color: red;
 }
 
 #yellow {
-  position: relative;
-  left: 280px;
-  width: 35%;
+  float: right;
+  width: 150px;
   background-color: yellow;
 }
 
 p {
-  padding: 15px;
+  padding: 45px 15px 15px 15px;
 }
 
 /********** Large devices only**********/
