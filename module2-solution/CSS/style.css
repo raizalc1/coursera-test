@@ -10,10 +10,10 @@ h1 {
 }
 
 section {
-  width: 420px;
-  height: 200px;
+  /*width: 420px;
+  height: 200px;*/
   border: 1px solid black;
-  margin: 20px;
+  /*margin: 20px;*/
   float: left;
 }
 
@@ -50,13 +50,12 @@ p {
 @media (min-width: 992px) {
   section {
     width: 30%;
-    height: 40%;
   }
 }
 
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-  #chicken {
+  /**#chicken {
     width: 45%;
     height: 40%;
   }
@@ -70,13 +69,19 @@ p {
   #sushi {
     width: 94%;
     height: 40%
+  }**/
+
+  section {
+    width: 50%;
+  }
+  section:last-of-type {
+    width: 100%;
   }
 }
 
 /********** Small devices only **********/
 @media (max-width: 767px) {
-section {
-  width: 80%;
-  height: 40%;
-}
+  section {
+  width: 100%;
+  }
 }
